@@ -1,0 +1,108 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "User account profile and preferences",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string", "maxLength": 128 },
+        "displayName": { "type": "string", "maxLength": 100 },
+        "email": { "type": "string", "format": "email", "maxLength": 150 },
+        "photoURL": { "type": "string", "maxLength": 500 },
+        "emailVerified": { "type": "boolean" },
+        "authProviders": { "type": "array", "description": "List of auth providers linked" },
+        "createdAt": { "type": "string", "description": "ISO timestamp or server timestamp" },
+        "updatedAt": { "type": "string", "description": "ISO timestamp or server timestamp" },
+        "lastLoginAt": { "type": "string" },
+        "gender": { "type": "string", "maxLength": 20 },
+        "location": { "type": "string", "maxLength": 100 },
+        "accountStatus": { "type": "string", "maxLength": 30 }
+      },
+      "required": ["uid", "email"]
+    },
+    "PrivateInfo": {
+      "title": "PrivateInfo",
+      "description": "Sensitive user information strictly isolated to owner",
+      "type": "object",
+      "properties": {
+        "email": { "type": "string", "format": "email", "maxLength": 150 },
+        "lastLoginIp": { "type": "string", "maxLength": 64 },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["email"]
+    },
+    "Conversation": {
+      "title": "Conversation",
+      "description": "Chat session with AI model",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128 },
+        "userId": { "type": "string", "maxLength": 128 },
+        "title": { "type": "string", "maxLength": 200 },
+        "model": { "type": "string", "maxLength": 64 },
+        "createdAt": { "type": "number" },
+        "updatedAt": { "type": "number" },
+        "isPinned": { "type": "boolean" },
+        "isSaved": { "type": "boolean" },
+        "isArchived": { "type": "boolean" },
+        "messageCount": { "type": "number" }
+      },
+      "required": ["id", "userId", "title", "createdAt", "updatedAt"]
+    },
+    "Message": {
+      "title": "Message",
+      "description": "Individual message inside a chat session",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128 },
+        "conversationId": { "type": "string", "maxLength": 128 },
+        "userId": { "type": "string", "maxLength": 128 },
+        "role": { "type": "string", "enum": ["user", "assistant"] },
+        "content": { "type": "string", "maxLength": 200000 },
+        "timestamp": { "type": "number" },
+        "type": { "type": "string", "maxLength": 20 },
+        "model": { "type": "string", "maxLength": 64 },
+        "metadata": { "type": "object" }
+      },
+      "required": ["id", "conversationId", "userId", "role", "content", "timestamp"]
+    },
+    "DeviceSession": {
+      "title": "DeviceSession",
+      "description": "Active device session for multi-device management",
+      "type": "object",
+      "properties": {
+        "deviceId": { "type": "string", "maxLength": 128 },
+        "userId": { "type": "string", "maxLength": 128 },
+        "deviceName": { "type": "string", "maxLength": 100 },
+        "platform": { "type": "string", "maxLength": 50 },
+        "userAgent": { "type": "string", "maxLength": 300 },
+        "lastActiveAt": { "type": "number" },
+        "createdAt": { "type": "number" },
+        "sessionStatus": { "type": "string", "maxLength": 30 }
+      },
+      "required": ["deviceId", "userId", "platform", "lastActiveAt"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "UserProfile",
+      "description": "User profile document indexed by Firebase Auth UID"
+    },
+    "/users/{userId}/private/{docId}": {
+      "schema": "PrivateInfo",
+      "description": "Private PII strictly isolated to the user"
+    },
+    "/users/{userId}/conversations/{conversationId}": {
+      "schema": "Conversation",
+      "description": "Chat conversations belonging to the user"
+    },
+    "/users/{userId}/conversations/{conversationId}/messages/{messageId}": {
+      "schema": "Message",
+      "description": "Individual messages belonging to the conversation"
+    },
+    "/users/{userId}/devices/{deviceId}": {
+      "schema": "DeviceSession",
+      "description": "Active client devices for multi-device sync and revocation"
+    }
+  }
+}

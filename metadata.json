@@ -1,0 +1,12 @@
+{
+  "name": "Zinnia AI",
+  "description": "An advanced AI companion featuring intelligent chat, mathematical reasoning, comprehensive coding assistance, real-time live voice conversation, and meteorological forecasts.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
