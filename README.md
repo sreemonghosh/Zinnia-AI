@@ -1,191 +1,439 @@
-Zinnia AI
+
+# 🌸 Zinnia AI
+
+### Your Intelligent AI Companion — Think, Solve, Create.
+
 <p align="center">
-  <strong>An AI assistant for thinking, solving, building, and exploring.</strong>
-</p><p align="center">
-  <em>Intelligent conversations, mathematical problem-solving, coding assistance, image understanding, live voice interaction, and more — in one workspace.</em>
-</p><p align="center">
-  <a href="https://github.com/sreemonghosh/Zinnia-AI"><img alt="GitHub repository" src="https://img.shields.io/badge/GitHub-Zinnia%20AI-181717?logo=github"></a>
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5.8-blue?logo=typescript">
-  <img alt="React" src="https://img.shields.io/badge/React-19-61DAFB?logo=react">
-  <img alt="Vite" src="https://img.shields.io/badge/Vite-6-646CFF?logo=vite">
-  <img alt="Firebase" src="https://img.shields.io/badge/Firebase-enabled-FFCA28?logo=firebase">
-</p>About Zinnia AI
-Zinnia AI is an independent AI assistant product designed to bring multiple AI-powered workflows into one unified experience. It combines conversational assistance with dedicated capabilities for mathematical reasoning, numerical problem-solving, software development, image analysis, weather information, and real-time voice conversations.
+  <strong>One AI. Multiple Possibilities.</strong>
+</p>
 
-Zinnia AI is being developed with a global audience in mind. It is an independent product initiative — not a college assignment or academic demonstration — with a focus on usability, capability, reliability, and a foundation that can evolve into a commercial service.
-Our direction: make it easier for people to ask questions, understand difficult problems, create software, and get useful assistance in one place.
+<p align="center">
+  An intelligent AI assistant designed to help people solve complex problems, understand mathematics, write code, explore ideas, and accomplish more through AI-powered technology.
+</p>
 
-Core capabilities
-The current repository includes the following product areas:
-🤖 AI conversations
-- Conversational question answering and general assistance.
-- Multiple model choices and response styles.
-- Conversation context and chat-session management.
-- Image input and AI-powered image analysis.
-🧮 Mathematical and scientific problem-solving
+<p align="center">
+  <a href="https://github.com/sreemonghosh/Zinnia-AI">
+    <img src="https://img.shields.io/badge/GitHub-Zinnia%20AI-black?style=for-the-badge&logo=github" alt="GitHub">
+  </a>
+  <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react" alt="React">
+  <img src="https://img.shields.io/badge/TypeScript-5.8-3178C6?style=for-the-badge&logo=typescript" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Firebase-Integrated-FFCA28?style=for-the-badge&logo=firebase" alt="Firebase">
+</p>
+
+---
+
+## 🚀 About Zinnia AI
+
+**Zinnia AI** is an independent artificial intelligence assistant developed to make advanced AI capabilities accessible through a unified, intelligent, and user-friendly platform.
+
+The vision behind Zinnia AI is to create more than just another chatbot. It is designed as a comprehensive AI ecosystem that combines conversational intelligence, mathematical reasoning, numerical problem-solving, programming assistance, image understanding, and real-time voice interaction.
+
+Whether someone wants to understand a complicated concept, solve a mathematical equation, develop software, debug programming errors, or simply explore an idea, Zinnia AI aims to provide an intelligent environment to accomplish these tasks.
+
+Zinnia AI is being developed with a global audience and long-term commercial potential in mind.
+
+### Our Mission
+
+To make artificial intelligence more accessible, practical, reliable, and useful for everyone.
+
+### Our Vision
+
+To build an intelligent AI ecosystem that brings together advanced reasoning, computational capabilities, programming assistance, and everyday productivity in one unified platform.
+
+---
+
+## ✨ Key Features
+
+### 🤖 1. Intelligent AI Assistant
+- General-purpose AI conversations.
+- Context-aware responses.
+- Multiple AI model options.
+- Natural language understanding.
+- Image-based question answering.
+- Conversation history and management.
+
+### 🧮 2. Advanced Mathematical Reasoning
+- Step-by-step mathematical solutions.
+- Algebra and calculus.
+- Differentiation and integration.
+- Matrix operations.
+- Mathematical simplification.
+- Numerical computation.
+- Engineering and scientific problem-solving.
+- Mathematical verification utilities.
+
+### 🔢 3. Numerical Problem Solver
 - Dedicated numerical-solving workflow.
-- Deeper mathematical reasoning for multi-step problems.
-- Step-by-step derivations with mathematical notation.
-- Numerical, symbolic, and dimensional-consistency verification helpers.
-💻 Coding assistance
-- Coding-focused task detection and routing.
-- Assistance with code generation, explanation, debugging, testing, and related development tasks.
-- Server-side code execution support for Python and JavaScript/Node.js workflows.
-🎙️ Live voice interaction
-- Real-time voice conversation interface.
-- Speech input and generated audio responses.
-- WebSocket-based live communication workflow.
-🌦️ Weather and location-aware information
-- Weather lookup by location or coordinates.
-- Current conditions and forecast data.
-- Location-aware weather retrieval, subject to user permission and device/browser support.
-👤 Accounts and chat history
-- Email/password and Google sign-in flows using Firebase Authentication.
-- User profile and account-management flows.
-- Cloud chat synchronization using Cloud Firestore.
-- Device-session management functionality.
-- Firestore security rules included in the repository.
-Feature availability can depend on configuration, API access, provider availability, deployment environment, and the current product release.
+- Mathematical calculations.
+- Multi-step problem-solving.
+- Symbolic and numerical verification.
+- Detailed solution explanations.
 
-Product experience
-Zinnia AI is designed around a unified assistant experience, with dedicated controls for different types of work:
-- Standard AI chat
-- Mathematical reasoning mode
-- Numerical solver
-- Coding assistant
-- Image understanding
-- Live voice mode
-- Weather experience
-- Chat sessions and history
-- Profile and account settings
-Technology
-The current codebase uses the following technologies and services:
-Area	Technology
-Frontend	React 19, TypeScript
-Build tooling	Vite 6
-Styling	Tailwind CSS 4
-Motion and icons	Motion, Lucide React
-Backend	Node.js, Express
-Real-time communication	WebSocket
-AI integration	Google GenAI SDK
-Authentication and data	Firebase Authentication, Cloud Firestore
-Mathematical utilities	math.js, KaTeX
-Markdown and code presentation	React Markdown, Prism.js
-PDF generation	jsPDF
-Weather data	Open-Meteo APIs
-Geocoding	Open-Meteo Geocoding, OpenStreetMap Nominatim
+### 💻 4. Advanced Coding Assistant
 
+Zinnia AI includes specialized coding workflows designed to support software developers and programmers.
 
-Technology and provider choices may change as the product evolves.
-Getting started
-These instructions are for developers who have permission to run the source code locally.
-Prerequisites
-Install:
-- Node.js (a currently supported LTS release)
-- npm (included with Node.js)
+Supported coding workflows include:
+
+- Code Generation
+- Code Debugging
+- Code Explanation
+- Code Optimization
+- Code Conversion
+- Data Structures and Algorithms
+- Project Architecture
+- SQL and Database Assistance
+- Test Case Generation
+- Coding Interview Preparation
+
+The AI can assist with a wide range of programming languages, including:
+
+- Python
+- JavaScript
+- TypeScript
+- C
+- C++
+- Java
+- HTML
+- CSS
+- SQL
+- PHP
+- And other programming languages.
+
+**Code Execution:** The current execution implementation supports Python 3 and JavaScript (Node.js). Other languages may receive code-generation assistance without native execution support.
+
+### 🖼️ 5. AI Image Understanding
+- Upload images and ask questions.
+- AI-powered image analysis.
+- Visual content interpretation.
+- Image-based problem-solving.
+
+### 🎙️ 6. Live Voice Assistant
+- Real-time voice interaction.
+- Speech-based communication.
+- AI-generated audio responses.
+- Conversational voice experience.
+
+### 🌦️ 7. Smart Weather Assistant
+- Location-based weather information.
+- Current weather conditions.
+- Temperature and humidity.
+- Weather forecasting.
+- Geolocation-based weather retrieval.
+
+### 👤 8. User Authentication and Accounts
+- Email and password authentication.
+- Google sign-in.
+- User profile management.
+- Password reset functionality.
+- Email verification.
+- Device session management.
+- Cross-device account access.
+
+### ☁️ 9. Cloud-Based Chat Synchronization
+- Cloud-synchronized conversations.
+- Access chat history across devices.
+- Real-time conversation updates.
+- Save, pin, archive, and delete conversations.
+- Persistent account-based chat history.
+
+### 📚 10. Chat History Management
+- Conversation history.
+- Multiple chat sessions.
+- Conversation organization.
+- Message editing and deletion.
+- Saved conversations.
+- Archived conversations.
+
+---
+
+## 🛠️ Technology Stack
+
+Zinnia AI is developed using modern web technologies and cloud-based services.
+
+| Category | Technology |
+|---|---|
+| Frontend | React 19 |
+| Programming Language | TypeScript |
+| Build Tool | Vite 6 |
+| Styling | Tailwind CSS 4 |
+| Backend | Node.js |
+| Server Framework | Express.js |
+| AI Integration | Google GenAI SDK |
+| Authentication | Firebase Authentication |
+| Database | Cloud Firestore |
+| Real-Time Communication | WebSocket |
+| Mathematical Processing | math.js |
+| Mathematical Rendering | KaTeX |
+| Markdown Rendering | React Markdown |
+| Code Highlighting | Prism.js |
+| Weather Services | Open-Meteo |
+| Geocoding | OpenStreetMap Nominatim |
+
+---
+
+## 🏗️ Application Architecture
+
+Zinnia AI follows a modern client-server architecture.
+
+```text
+Zinnia AI
+│
+├── Frontend
+│   ├── React
+│   ├── TypeScript
+│   ├── Tailwind CSS
+│   └── Vite
+│
+├── Backend
+│   ├── Node.js
+│   ├── Express.js
+│   ├── AI API Routes
+│   ├── Reasoning Engine
+│   └── Coding Engine
+│
+├── AI Services
+│   ├── General AI Assistant
+│   ├── Mathematical Reasoning
+│   ├── Numerical Solver
+│   ├── Coding Assistant
+│   └── Image Understanding
+│
+├── Firebase
+│   ├── Authentication
+│   ├── Cloud Firestore
+│   └── Chat Synchronization
+│
+└── Additional Services
+    ├── Live Voice
+    ├── Weather API
+    └── Geolocation
+```
+
+---
+
+## 💻 Installation and Setup
+
+Follow these instructions to run Zinnia AI locally.
+
+### Prerequisites
+
+Make sure you have installed:
+
+- Node.js (supported LTS version)
+- npm
 - Git
-1. Clone the repository
+- A code editor such as Visual Studio Code
+
+### Step 1: Clone the Repository
+
+```bash
 git clone https://github.com/sreemonghosh/Zinnia-AI.git
+```
+
+### Step 2: Navigate to the Project
+
+```bash
 cd Zinnia-AI
-2. Install dependencies
+```
+
+### Step 3: Install Dependencies
+
+```bash
 npm install
-3. Configure environment variables
-Create a local .env file in the project root:
-GOOGLE_API_KEY=your_google_genai_api_key
-GEMINI_API_KEY=your_google_genai_api_key
-The repository includes .env.example as a starting point. Use a valid API key from the relevant provider and follow that provider's terms, quotas, and billing requirements.
+```
 
-Security: never commit real API keys, credentials, private certificates, or production secrets. Keep privileged keys on the server side and configure them through your deployment platform's secret manager in production.
-4. Run the development server
+### Step 4: Configure Environment Variables
+
+Create a `.env` file in the project root.
+
+Add your Google AI API key:
+
+```env
+GOOGLE_API_KEY=your_google_ai_api_key
+GEMINI_API_KEY=your_google_ai_api_key
+```
+
+Use the actual environment variables required by your configured services.
+
+Never upload private API keys or credentials to GitHub.
+
+### Step 5: Configure Firebase
+
+1. Create a Firebase project.
+2. Configure Firebase Authentication.
+3. Enable Google authentication if required.
+4. Configure Cloud Firestore.
+5. Review Firestore security rules.
+6. Configure your authorized domains.
+7. Verify your Firebase application configuration.
+
+### Step 6: Start the Development Server
+
+```bash
 npm run dev
-Open the local URL printed in your terminal. The project currently defaults to port 3000 in development.
-5. Build for production
+```
+
+Open the local development URL displayed in your terminal.
+
+### Step 7: Build for Production
+
+```bash
 npm run build
-To start the server after building:
+```
+
+### Step 8: Start the Production Server
+
+```bash
 npm start
-Available scripts
-Command	Description
-npm run dev	Starts the application server in development mode
-npm run build	Builds the frontend for production
-npm start	Starts the server
-npm run preview	Runs Vite's local production preview
-npm run lint	Runs the TypeScript compiler in no-emit mode
-npm run clean	Removes the generated dist directory
+```
 
+---
 
-Configuration and integrations
-Google GenAI
-The server reads the AI provider key from GEMINI_API_KEY or GOOGLE_API_KEY. Configure this secret in your local environment or deployment environment. Never expose a privileged server API key in client-side code.
-Firebase
-The project contains Firebase client configuration, authentication integration, cloud chat synchronization, and Firestore rules. Before deploying your own instance:
-1. Create and configure a Firebase project.
-2. Enable only the authentication providers you intend to support.
-3. Configure Firebase application settings for the deployment environment.
-4. Review and test Firestore security rules against your intended data model.
-5. Configure authorized domains and production authentication settings.
-Do not assume that a sample Firebase configuration or development project is suitable for production. Firebase client configuration is not a substitute for correct Authentication setup and secure Firestore rules.
-Weather and geocoding
-Weather and geocoding functionality uses third-party services. Review the applicable provider terms, attribution requirements, fair-use policies, rate limits, and production suitability before operating a public service.
-Architecture at a glance
-The repository is organized into a React client, service modules, and a Node.js/Express server.
+## 📂 Project Structure
+
+```text
 Zinnia-AI/
-├── server.ts                 # Express server, API routes, WebSocket setup
-├── server/
-│   ├── codingEngine.ts       # Coding workflow and execution helpers
-│   ├── mathEngine.ts         # Mathematical verification helpers
-│   └── reasoningAdapter.ts   # Reasoning service integration
+│
+├── public/
+│
 ├── src/
-│   ├── components/           # User interface components
-│   ├── hooks/                # React hooks and application state
-│   ├── lib/                  # Shared utilities
-│   ├── services/             # AI, auth, Firebase, chat and weather services
-│   ├── App.tsx               # Main application experience
-│   └── main.tsx              # Frontend entry point
-├── public/                   # Static public assets
-├── firestore.rules           # Firestore security rules
-├── .env.example              # Environment variable example
-├── package.json              # Dependencies and scripts
-├── tsconfig.json             # TypeScript configuration
-└── vite.config.ts            # Vite configuration
-Privacy, security, and responsible use
-Zinnia AI is intended to handle user conversations and potentially personal information. Security and privacy must be treated as ongoing product requirements.
-- Do not publish API keys or other secrets in source control.
-- Enforce authentication and authorization on the server and in Firebase rules.
-- Validate and limit all user input at API boundaries.
-- Apply rate limiting, abuse prevention, request-size limits, and appropriate logging controls before public launch.
-- Treat code execution as a security-sensitive capability. Run untrusted code only in a hardened, isolated environment with strict CPU, memory, time, filesystem, process, and network restrictions.
-- Provide clear privacy disclosures and retention/deletion controls for user data.
-- Review third-party provider policies and data handling before sending user content to external services.
-Deployment notice: this repository is a source-code project, not a claim that a production SaaS environment is already provisioned or independently security-audited. Authentication, data isolation, server hardening, billing, monitoring, abuse prevention, backups, and compliance must be verified for the specific production deployment.
-Roadmap
-Zinnia AI is an evolving product. Future development may include improvements to:
-- Reliability and quality of AI responses.
-- Mathematical and coding evaluation and verification.
-- Cross-device account and conversation experience.
-- Performance, accessibility, and localization.
-- Privacy controls and account management.
-- Production observability, security, and scalability.
-- Commercial plans and service administration.
-Roadmap items are directional and should not be interpreted as currently available features.
-Contributing
-Zinnia AI is developed as an independent product. Contribution guidelines may be added as the project establishes its public development process.
+│   ├── components/
+│   ├── hooks/
+│   ├── lib/
+│   ├── services/
+│   │
+│   ├── App.tsx
+│   └── main.tsx
+│
+├── server/
+│   ├── codingEngine.ts
+│   ├── mathEngine.ts
+│   └── reasoningAdapter.ts
+│
+├── server.ts
+│
+├── firestore.rules
+├── firebase-applet-config.json
+├── .env.example
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+└── README.md
+```
 
-For now, please use GitHub Issues to report reproducible bugs or suggest improvements. Include relevant environment details and steps to reproduce, but never include API keys, passwords, personal data, or other secrets.
-- Report a bug or request a feature
-- View the source code
-Commercial use and licensing
-Zinnia AI is intended to become a commercial product. No open-source license is currently declared in this repository. Until a license is added, no rights to use, copy, modify, redistribute, or commercially exploit this source code are granted by implication. Contact the project owner for permission.
+---
 
-Zinnia AI also integrates third-party libraries, APIs, and services, each of which is governed by its own license and terms. Commercial deployment requires reviewing those obligations and ensuring that the product's name, branding, and distribution do not infringe third-party rights.
-Disclaimer
-AI-generated responses can be incomplete, inaccurate, or unsuitable for a particular purpose. Users should independently verify important mathematical, technical, financial, legal, medical, or safety-critical decisions. Weather and other third-party data may be delayed, unavailable, or inaccurate.
+## 🔐 Security and Privacy
 
-Zinnia AI is provided on an evolving basis. Features, model availability, supported integrations, and service conditions may change.
-About the creator
-Zinnia AI is created and maintained by Sreemon Ghosh.
-- GitHub: @sreemonghosh
-- Project repository: Zinnia AI
+Security and privacy are important requirements for the development of Zinnia AI.
+
+The project incorporates Firebase Authentication and user-specific Firestore data structures.
+
+Before production deployment, the following areas must be reviewed and hardened:
+
+- Secure API key management.
+- Authentication and authorization.
+- Firestore security rules.
+- User data isolation.
+- Secure session management.
+- API rate limiting.
+- Abuse prevention.
+- Secure code execution.
+- Data retention and account deletion.
+- Privacy and data protection policies.
+
+**Important:** The current repository should not be considered independently security-audited or production-hardened. In particular, user-submitted code execution must be moved into a properly isolated execution environment before exposing it to public users.
+
+---
+
+## 🌍 Global Product Vision
+
+Zinnia AI is being developed as an independent AI product with the ambition of reaching users worldwide.
+
+The long-term objective is to create an intelligent platform that combines:
+
+- AI-powered productivity.
+- Advanced mathematical reasoning.
+- Programming and software development.
+- Scientific and engineering assistance.
+- Natural voice interaction.
+- Intelligent personal assistance.
+
+The goal is to continuously improve the platform through research, engineering, innovation, and user feedback.
+
+---
+
+## 🗺️ Development Roadmap
+
+Zinnia AI is an evolving product.
+
+Planned areas of continued development include:
+
+- [ ] Improve mathematical reasoning accuracy.
+- [ ] Expand programming language execution support.
+- [ ] Improve AI response reliability.
+- [ ] Enhance cross-device synchronization.
+- [ ] Strengthen account security.
+- [ ] Introduce subscription and payment infrastructure.
+- [ ] Develop advanced personalization.
+- [ ] Improve mobile experience.
+- [ ] Expand international language support.
+- [ ] Improve infrastructure scalability.
+- [ ] Introduce advanced user privacy controls.
+
+Roadmap items represent development goals, not necessarily currently available features.
+
+---
+
+## 🤝 Feedback and Support
+
+Your feedback can help improve Zinnia AI.
+
+If you discover a bug, experience an issue, or have an idea for improvement, please open an issue on GitHub.
+
+**GitHub Issues:**
+
+https://github.com/sreemonghosh/Zinnia-AI/issues
+
+---
+
+## 📜 License and Commercial Use
+
+Zinnia AI is intended to be developed as an independent commercial AI product.
+
+The repository currently does not declare an open-source license.
+
+Unless the project owner explicitly grants permission, no rights to copy, redistribute, modify, or commercially exploit this source code are granted.
+
+Third-party dependencies and integrations remain subject to their respective licenses and terms.
+
+---
+
+## 👨‍💻 Creator
+
+**Created and Developed by Sreemon Ghosh**
+
+Independent Developer | AI Product Development
+
+GitHub: https://github.com/sreemonghosh
+
+Project: https://github.com/sreemonghosh/Zinnia-AI
+
+---
+
 <p align="center">
-  <strong>Zinnia AI</strong><br>
-  <em>Think clearly. Solve confidently. Create freely.</em>
+  <h2 align="center">🌸 Zinnia AI</h2>
+  <p align="center">
+    <strong>Think Clearly. Solve Confidently. Create Freely.</strong>
+  </p>
+  <p align="center">
+    Building a smarter future with artificial intelligence.
+  </p>
+</p>
+
+---
+
+<p align="center">
+  Made with ❤️ and Artificial Intelligence.
 </p>
